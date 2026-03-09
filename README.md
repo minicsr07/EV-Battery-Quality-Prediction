@@ -26,3 +26,6 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
+## Live Demo
+
+[Open Streamlit App](https://your-app-link.streamlit.app)

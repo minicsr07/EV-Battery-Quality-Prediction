@@ -25,11 +25,4 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-## Project Structure
 
-EV-Battery-Quality-Prediction
-  notebook.ipynb
-  ev_battery_model.pkl
-  app.py
-  requirements.txt
-  README.md

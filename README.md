@@ -25,7 +25,8 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-
 ## Live Demo
 
-[Open Streamlit App](https://your-app-link.streamlit.app)
+Try the EV Battery Quality Prediction App here:
+
+https://ev-battery-quality.streamlit.app

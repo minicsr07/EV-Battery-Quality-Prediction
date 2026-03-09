@@ -9,6 +9,22 @@ This project predicts EV battery quality grades using machine learning.
 - Streamlit web application
 - Model deployment
 
+## Dataset
+
+This project uses the **EV Battery QC: Synthetic Defect Dataset**.
+
+Dataset Source:
+https://www.kaggle.com/datasets/kanchana1990/ev-battery-qc-synthetic-defect-dataset
+
+Description:
+
+The dataset contains synthetic quality control data for lithium-ion battery cells used in electric vehicles. It simulates a manufacturing environment including physical measurements, environmental parameters, and inspection data.
+
+Possible outputs:
+- Grade A
+- Grade B
+- Scrap
+
 ## Technologies Used
 - Python
 - Scikit-learn

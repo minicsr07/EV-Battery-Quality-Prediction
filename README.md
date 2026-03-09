@@ -45,4 +45,4 @@ streamlit run app.py
 
 Try the EV Battery Quality Prediction App here:
 
-https://ev-battery-quality.streamlit.app
+https://ev-battery-quality-prediction-l97ujsfvjepez7lw6ac9qc.streamlit.app/

@@ -28,7 +28,7 @@ if st.button("Predict"):
                           Retention_50Cycle_Pct,
                           Production_Line,
                           Shift,
-                          Supplier]])
+                          Supplier]],dtype="float")
 
     prediction = model.predict(features)[0]
 

@@ -38,7 +38,5 @@ if st.button("Predict"):
     2: "Scrap"
 }
 
-prediction = model.predict(features)[0]
-
 st.success(f"Predicted QC Grade: {grade_map[prediction]}")
 

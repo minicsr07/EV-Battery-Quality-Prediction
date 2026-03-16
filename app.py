@@ -36,7 +36,7 @@ if st.button("Predict"):
     0: "Grade A",
     1: "Grade B",
     2: "Scrap"
-}
+    }
 
-st.success(f"Predicted QC Grade: {grade_map[prediction]}")
+    st.success(f"Predicted QC Grade: {grade_map[prediction]}")
 

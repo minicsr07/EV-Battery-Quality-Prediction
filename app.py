@@ -16,7 +16,7 @@ Retention_50Cycle_Pct = st.number_input("Retention")
 
 Production_Line = st.number_input("Production Line")
 Shift = st.number_input("Shift")
-Supplier = st.number_input("Supplier")
+Supplier_ID = st.number_input("Supplier_ID")
 
 if st.button("Predict"):
 
@@ -30,7 +30,7 @@ if st.button("Predict"):
                           Shift,
                           Supplier]])
 
-    prediction = model.predict(features)
+    prediction = model.predict(features)[0]
 
     grade_map = {
     0: "Grade A",
